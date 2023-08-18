@@ -4,7 +4,7 @@ import protect from '../middlewares/protect.js'
 
 const router = express.Router()
 
-router.post('/register', protect, register)
+router.post('/register',  register)
 router.post('/login', login)
 
 export default router
